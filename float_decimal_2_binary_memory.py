@@ -37,8 +37,9 @@ def divide_float(f_number):
 
 
 def int2bin(integer):
-    """把整数部分转化成二进制，整数部分不为O
-    返回转换后的整数部分
+    """
+        把整数部分转化成二进制，整数部分不为O
+        返回转换后的整数部分
     """
     integer_covert = str(bin(integer))
     return integer_covert[2:]
