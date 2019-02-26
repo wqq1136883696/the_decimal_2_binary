@@ -46,7 +46,9 @@ def int2bin(integer):
 
 
 def decimal_part2bin(decimal_part):
-    """把小数部分转化成二进制,小数部分不为O"""
+    """
+        把小数部分转化成二进制,小数部分不为O
+    """
     decimal_convert = ""
 
     for i in range(32):
