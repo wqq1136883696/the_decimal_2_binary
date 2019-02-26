@@ -13,7 +13,9 @@ from decimal import Decimal
 
 
 def divide_float(f_number):
-    """分离整数和小数"""
+    """
+        分离整数和小数，返回符号位，整数部分，和小数部分
+    """
     # 转换成正数
     sign = 0
     if f_number < 0:
@@ -30,7 +32,10 @@ def divide_float(f_number):
 
 
 def int2bin(integer):
-    """把整数部分转化成二进制，整数部分不为O"""
+    """
+        把整数部分转化成二进制，整数部分不为O
+        返回转换后的整数部分
+    """
     integer_covert = str(bin(integer))
     return integer_covert[2:]
 
